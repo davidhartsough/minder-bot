@@ -24,9 +24,12 @@ type Message = {
 };
 
 export async function POST(request: Request) {
-  const body = await request.json();
-  if (body.object === "page") {
-    body.entry.forEach(({ messaging }: { messaging: Message[] }) => {
+  console.log("request.body:", request.body);
+  console.log("request.url:", request.url);
+  const payload = await request.json();
+  console.log("json:", payload);
+  if (payload.object === "page") {
+    payload.entry.forEach(({ messaging }: { messaging: Message[] }) => {
       console.log("messaging:", messaging);
       console.log("Webhook Event:", messaging[0]);
     });

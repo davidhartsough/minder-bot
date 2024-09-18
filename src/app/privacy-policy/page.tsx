@@ -1,3 +1,5 @@
+import "./privacy-policy.css";
+
 export default function PrivacyPolicy() {
   return (
     <main>
@@ -5,7 +7,7 @@ export default function PrivacyPolicy() {
         <article id="privacy-policy" className="m-auto mb-8 max-w-3xl p-4">
           <h1>The &quot;minder bot&quot; Privacy Policy</h1>
           <p>
-            This privacy policy for When Tho LLC (&quot;we&quot;,
+            This privacy policy for the &quot;minder bot&quot; (&quot;we&quot;,
             &quot;us&quot;, or &quot;our&quot;) explains how and why we collect,
             store, and use your information when you use our website and
             application services (&quot;website&quot;, &quot;application&quot;,

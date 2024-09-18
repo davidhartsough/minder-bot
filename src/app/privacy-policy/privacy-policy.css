@@ -1,0 +1,47 @@
+article p {
+  margin-bottom: 1rem;
+}
+h1,
+h2,
+h3 {
+  line-height: 1.15;
+}
+h1 {
+  font-size: 2.5rem;
+  margin: 1rem 0;
+}
+h2 {
+  font-size: 1.875rem;
+  margin: 1.25rem 0 1rem;
+}
+h3 {
+  font-size: 1.25rem;
+  margin: 0 0 1rem;
+}
+article a {
+  text-decoration: underline;
+}
+ol,
+ul {
+  list-style-image: none;
+  list-style-position: outside;
+  margin: 1rem 0 1.45rem 1.45rem;
+  padding: 0;
+}
+ol {
+  list-style-type: decimal;
+}
+ul {
+  list-style-type: disc;
+}
+ol li,
+ul li {
+  padding-left: 0;
+}
+li,
+li p {
+  margin-bottom: 0.125rem;
+}
+li {
+  display: list-item;
+}
